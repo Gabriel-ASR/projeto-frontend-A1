@@ -1,0 +1,7 @@
+.categoriesWrapper {
+    padding: 0 70px;
+    display: flex;
+    height: 43px;
+    align-items: center;
+    background-color: #2274A5;
+}

@@ -1,0 +1,10 @@
+.navWrapper {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}

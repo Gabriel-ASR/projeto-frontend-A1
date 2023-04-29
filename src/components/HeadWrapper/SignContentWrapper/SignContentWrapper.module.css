@@ -1,0 +1,6 @@
+.signContentWrapper {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+.searchBar {
+    height: 60%;
+    width: 40%;
+    border-radius: 75px;
+    border: none;
+    padding: 20px;
+    margin: 0;
+    outline: none;
+    caret-color: transparent;
+}

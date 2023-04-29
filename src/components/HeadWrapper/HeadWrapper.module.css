@@ -1,0 +1,8 @@
+.headWrapper {
+    display: flex;
+    padding: 0 70px;
+    justify-content: space-between;
+    background-color: #2E294E;
+    height: 67px;
+    align-items: center;
+}
