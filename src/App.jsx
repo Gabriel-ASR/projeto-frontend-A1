@@ -34,6 +34,7 @@ import FeatTitle from './components/ContentWrapper/NewsWrapper/FeaturedNews/Feat
 import FeaturedImage from './components/ContentWrapper/NewsWrapper/FeaturedNews/FeatMedia/FeaturedImage/FeaturedImage.jsx'
 import FeatAuthor from './components/ContentWrapper/NewsWrapper/FeaturedNews/FeatContentWrapper/FeatAuthor/FeatAuthor.jsx'
 import FeatCategory from './components/ContentWrapper/NewsWrapper/FeaturedNews/FeatContentWrapper/FeatCategory/FeatCategory.jsx'
+import SecondaryNews from './components/ContentWrapper/NewsWrapper/SecondaryNews/SecondaryNews.jsx'
 
 function App() {
   return (
@@ -128,6 +129,9 @@ function App() {
               <FeatDesc Desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."/>
             </FeatContentWrapper>
           </FeaturedNews>
+          <SecondaryNews>
+
+          </SecondaryNews>
         </NewsWrapper>
       </ContentWrapper>
     </>
