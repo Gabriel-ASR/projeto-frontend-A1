@@ -1,0 +1,4 @@
+.recentWrapper {
+    display: flex;
+    justify-content: space-between;
+}

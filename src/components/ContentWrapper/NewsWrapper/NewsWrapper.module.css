@@ -1,0 +1,6 @@
+.newsWrapper {
+    height: 500px;
+    width: 100%;
+    display: grid;
+    margin-top: 45px;
+}
