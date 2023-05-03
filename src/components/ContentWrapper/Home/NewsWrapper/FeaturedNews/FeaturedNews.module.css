@@ -1,0 +1,9 @@
+.featuredNews {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    padding: 30px 30px;
+    border-radius: 15px;
+    background-color: #FBFBFB;
+    justify-content: space-around;
+}

@@ -1,0 +1,9 @@
+.newsWrapper {
+    width: 100%;
+    display: grid;
+    margin-top: 45px;
+    grid-template-columns: 45% 54%;
+    justify-content: center;
+    column-gap: 2%;
+    row-gap: 2%;
+}
