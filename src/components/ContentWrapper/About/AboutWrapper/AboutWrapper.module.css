@@ -1,0 +1,8 @@
+.aboutWrapper {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-between;
+    width: 1000px;
+    row-gap: 15px;
+    margin-top: 45px;
+}

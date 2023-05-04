@@ -14,6 +14,13 @@ import CategoriesWrapper from '../components/CategoriesWrapper/CategoriesWrapper
 import CatListWrapper from '../components/CategoriesWrapper/CatListWrapper/CatListWrapper.jsx'
 import CatListItem from '../components/CategoriesWrapper/CatListWrapper/CatListItem/CatListItem.jsx'
 import { Link } from 'react-router-dom'
+import ContentWrapper from '../components/ContentWrapper/ContentWrapper.jsx'
+import PageTitle from '../components/ContentWrapper/Contact/PageTitle/PageTitle.jsx'
+import AboutWrapper  from '../components/ContentWrapper/About/AboutWrapper/AboutWrapper.jsx'
+import AboutImage from '../components/ContentWrapper/About/AboutWrapper/AboutImage/AboutImage.jsx'
+import AboutText from '../components/ContentWrapper/About/AboutWrapper/AboutText/AboutText.jsx'
+import Style from '../components/ContentWrapper/About/AboutWrapper/AboutImage/AboutImage.module.css'
+import AboutLongText from '../components/ContentWrapper/About/AboutWrapper/AboutLongText/AboutLongText.jsx'
 
 function About() {
     return (
@@ -22,14 +29,18 @@ function About() {
                 <Logo/>
                 <SignContentWrapper>
                     <LogInLinkWrapper>
-                        <LogInIcon/>
-                        <LogInLink/>
+                        <Link to='/login' style={{textDecoration: "none"}}>
+                            <LogInIcon/>
+                            <LogInLink/>
+                        </Link>
                     </LogInLinkWrapper>
                     <SignInLinkWrapper>
-                        <SignInIcon/>
-                        <SignInLink/>
+                        <Link to='/login' style={{textDecoration: "none"}}>
+                            <SignInIcon/>
+                            <SignInLink/>
+                        </Link>
                     </SignInLinkWrapper>
-                    </SignContentWrapper>
+                </SignContentWrapper>
                     <SearchBar/>
                     <NavWrapper>
                     <NavItem><Link to="/" style={{textDecoration: "none", color: "white"}}>Home</Link></NavItem>
@@ -55,6 +66,25 @@ function About() {
                 <CatListItem innerLink="Inovação"></CatListItem>
                 </CatListWrapper>
             </CategoriesWrapper>
+            <ContentWrapper>
+                <PageTitle titleText="Sobre Nós"/>
+                <AboutWrapper>
+                    <AboutImage className={Style.aboutImagePaper}/>
+                    <AboutText>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum ante eget nulla fermentum tristique. Sed efficitur massa quis sem dictum placerat eget sed mi. Morbi ut neque nec nibh auctor euismod. In ligula massa, egestas ac placerat tempor, finibus eu velit. Curabitur eget scelerisque nunc. Nam finibus neque nec lacus luctus, in aliquet justo mollis. Etiam lobortis enim sed scelerisque ullamcorper. Mauris bibendum arcu quis est fermentum sagittis id vel ex.
+Vestibulum hendrerit vestibulum consectetur. Donec sodales turpis id neque suscipit ornare.
+                     </AboutText>
+                     <AboutLongText>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum ante eget nulla fermentum tristique. Sed efficitur massa quis sem dictum placerat eget sed mi. Morbi ut neque nec nibh auctor euismod. In ligula massa, egestas ac placerat tempor, finibus eu velit. Curabitur eget scelerisque nunc. Nam finibus neque nec lacus luctus, in aliquet justo mollis. Etiam lobortis enim sed scelerisque ullamcorper. Mauris bibendum arcu quis est fermentum sagittis id vel ex.
+Vestibulum hendrerit vestibulum consectetur. Donec sodales turpis id neque suscipit ornare.
+                     </AboutLongText>
+                     <AboutText>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum ante eget nulla fermentum tristique. Sed efficitur massa quis sem dictum placerat eget sed mi. Morbi ut neque nec nibh auctor euismod. In ligula massa, egestas ac placerat tempor, finibus eu velit. Curabitur eget scelerisque nunc. Nam finibus neque nec lacus luctus, in aliquet justo mollis. Etiam lobortis enim sed scelerisque ullamcorper. Mauris bibendum arcu quis est fermentum sagittis id vel ex.
+Vestibulum hendrerit vestibulum consectetur. Donec sodales turpis id neque suscipit ornare.
+                     </AboutText>
+                     <AboutImage className={Style.aboutImagePresentation}/>
+                </AboutWrapper>
+            </ContentWrapper>
         </>
     )
 }

@@ -50,15 +50,19 @@ function Home() {
         <HeadWrapper>
             <Logo/>
             <SignContentWrapper>
-                <LogInLinkWrapper>
-                    <LogInIcon/>
-                    <LogInLink/>
-                </LogInLinkWrapper>
-                <SignInLinkWrapper>
-                    <SignInIcon/>
-                    <SignInLink/>
-                </SignInLinkWrapper>
-                </SignContentWrapper>
+                    <LogInLinkWrapper>
+                        <Link to='/login' style={{textDecoration: "none"}}>
+                            <LogInIcon/>
+                            <LogInLink/>
+                        </Link>
+                    </LogInLinkWrapper>
+                    <SignInLinkWrapper>
+                        <Link to='/login' style={{textDecoration: "none"}}>
+                            <SignInIcon/>
+                            <SignInLink/>
+                        </Link>
+                    </SignInLinkWrapper>
+            </SignContentWrapper>
                 <SearchBar/>
                 <NavWrapper>
                 <NavItem><Link to="/" style={{textDecoration: "none", color: "white"}}>Home</Link></NavItem>

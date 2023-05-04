@@ -1,4 +1,7 @@
 .contentWrapper {
     padding: 0 70px;
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

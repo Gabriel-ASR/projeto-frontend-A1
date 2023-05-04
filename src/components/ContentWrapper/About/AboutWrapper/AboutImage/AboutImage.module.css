@@ -1,0 +1,12 @@
+.aboutImagePaper {
+    background-image: url('../../../../../assets/jornais.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutImagePresentation {
+    background-image: url('../../../../../assets/presentation.jpg');
+    background-size: cover;
+    background-position: center;
+
+}

@@ -44,14 +44,18 @@ function Contact() {
                 <Logo/>
                 <SignContentWrapper>
                     <LogInLinkWrapper>
-                        <LogInIcon/>
-                        <LogInLink/>
+                        <Link to='/login' style={{textDecoration: "none"}}>
+                            <LogInIcon/>
+                            <LogInLink/>
+                        </Link>
                     </LogInLinkWrapper>
                     <SignInLinkWrapper>
-                        <SignInIcon/>
-                        <SignInLink/>
+                        <Link to='/login' style={{textDecoration: "none"}}>
+                            <SignInIcon/>
+                            <SignInLink/>
+                        </Link>
                     </SignInLinkWrapper>
-                    </SignContentWrapper>
+                </SignContentWrapper>
                     <SearchBar/>
                     <NavWrapper>
                     <NavItem><Link to="/" style={{textDecoration: "none", color: "white"}}>Home</Link></NavItem>
@@ -81,15 +85,15 @@ function Contact() {
                 <PageTitle titleText="Fale Conosco"/>
                     <ContactForm>
                         <InputWrapper>
-                            <FormLabel for="fname">Nome:</FormLabel>
+                            <FormLabel htmlFor="fname">Nome:</FormLabel>
                             <FormInput type="text" id="fname" name="fname" placeholder="Seu nome..."/>
                         </InputWrapper>
                         <InputWrapper>
-                            <FormLabel for="email">E-mail:</FormLabel>
+                            <FormLabel htmlFor="email">E-mail:</FormLabel>
                             <FormInput type="email" id="email" name="email" placeholder="Seu e-mail..."/>
                         </InputWrapper>
                         <InputWrapper>
-                            <FormLabel for="request">Sua solicitação:</FormLabel>
+                            <FormLabel htmlFor="request">Sua solicitação:</FormLabel>
                             <InputTextArea id="request" name="request" placeholder="Sua solicitação..."/>
                         </InputWrapper>
                         <SubmitForm value="Enviar"/>
