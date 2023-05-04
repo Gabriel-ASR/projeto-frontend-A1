@@ -1,0 +1,12 @@
+.inputTextArea {
+    display: block;
+    border: none;
+    resize: none;
+    background-color: #DBDBDB;
+    border-radius: 15px;
+    height: 250px;
+    padding: 15px;
+    outline: none;
+    font-family: "Barlow", "sans-serif";
+    font-size: 1.1em;
+}

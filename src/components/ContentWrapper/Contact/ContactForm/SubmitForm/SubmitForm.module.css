@@ -1,0 +1,12 @@
+.submitForm {
+    width: 150px;
+    align-self: center;
+    height: 50px;
+    background-color: #2274A5;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-family: "Barlow", "sans-serif";
+    font-weight: 600;
+    font-size: 1.3em;
+}

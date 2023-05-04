@@ -1,0 +1,8 @@
+.channelsWrapper {
+    height: 450px;
+    background-color: #2274A5;
+    margin-top: 20px;
+    padding: 30px 70px;
+    display: flex;
+    flex-direction: column;
+}

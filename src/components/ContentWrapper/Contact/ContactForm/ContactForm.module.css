@@ -1,0 +1,7 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 40px;
+    margin-top: 50px;
+}

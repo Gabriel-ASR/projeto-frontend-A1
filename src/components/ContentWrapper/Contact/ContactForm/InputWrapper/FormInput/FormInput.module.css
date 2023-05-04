@@ -1,0 +1,11 @@
+.formInput {
+    display: block;
+    background-color: #DBDBDB;
+    border: none;
+    height: 45px;
+    border-radius: 15px;
+    outline: none;
+    padding: 15px;
+    font-family: "Barlow", "sans-serif";
+    font-size: 1.1em;
+}

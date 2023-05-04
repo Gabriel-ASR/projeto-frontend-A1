@@ -1,5 +1,4 @@
 import { BrowserRouter, Link } from 'react-router-dom'
-import './Styles/Style.css'
 import HeadWrapper from '../components/HeadWrapper/HeadWrapper.jsx'
 import Logo from '../components/HeadWrapper/Logo/Logo.jsx'
 import SearchBar from '../components/HeadWrapper/SearchBar/SearchBar.jsx'
