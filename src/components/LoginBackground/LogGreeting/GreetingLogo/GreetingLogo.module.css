@@ -1,0 +1,8 @@
+.greetingLogo {
+    height: 75px;
+    background-image: url('../../../../assets/greetinglogo.png');
+    width: 210px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
