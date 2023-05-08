@@ -1,0 +1,11 @@
+.logSubmit {
+    border: none;
+    border-radius: 7px;
+    height: 8h;
+    width: 60%;
+    align-self: center;
+    font-size: 3vh;
+    background-color: #00477F;
+    font-size: 1.5em;
+    color: white;
+}

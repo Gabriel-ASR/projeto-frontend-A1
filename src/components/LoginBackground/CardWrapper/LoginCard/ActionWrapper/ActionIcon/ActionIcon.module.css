@@ -1,12 +1,8 @@
 .actionLogin {
     background-image: url('../../../../../../assets/profile-user.png');
-    width: 50%;
-    height: 93px;
+    width: 60%;
+    height: 112px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.actionSignin {
-    background-image: url('../../../../../../assets/enter.png');
 }

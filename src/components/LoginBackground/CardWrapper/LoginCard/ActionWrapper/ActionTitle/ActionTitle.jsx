@@ -1,5 +1,7 @@
+import Style from './ActionTitle.module.css'
+
 function ActionTitle(props) {
-    return <h3>{props.actionTitle}</h3>
+    return <h3 className={Style.actionTitle}>{props.actionTitle}</h3>
 }
 
 export default ActionTitle

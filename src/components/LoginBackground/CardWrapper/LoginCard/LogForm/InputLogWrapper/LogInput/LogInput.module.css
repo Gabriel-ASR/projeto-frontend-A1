@@ -1,0 +1,10 @@
+.logInput {
+    outline: none;
+    border: none;
+    background-color: #E7E7E7;
+    height: 5vh;
+    border-radius: 7px;
+    display: block;
+    width: 100%;
+    padding: 15px;
+}

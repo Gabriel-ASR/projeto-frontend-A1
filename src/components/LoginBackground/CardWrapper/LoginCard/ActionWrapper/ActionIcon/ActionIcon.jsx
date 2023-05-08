@@ -1,5 +1,4 @@
 function ActionIcon(props) {
-    return <div className={props.className}></div>
+    return <img src={props.src} width="35%"/>
 }
-
 export default ActionIcon
